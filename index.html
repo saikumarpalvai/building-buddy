@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Building Buddy</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Building Buddy</h1>
+        <p>Build real projects, together.</p>
+        <h2>What is Building Buddy</h2>
+        <p>
+            Building Buddy helps students and self-learners learn software development by building  real projects - solo or with others.
+        </p>
+        <h2>Projects</h2>
+        <div>
+            <h3>Personal Website</h3>
+            <p>Build your first real website and deploy it.</p>
+            <button>I want to build this</button>
+        </div>
+         <div>
+            <h3>Login & Signup System</h3>
+            <p>Understand authentication in real applications.</p>
+            <button>I want to build this</button>
+        </div>
+         <div>
+            <h3>CRUD Application</h3>
+            <p>Learn how real apps create, read, update and delete data.</p>
+            <button>I want to build this</button>
+        </div>
+        <!--JavaScript goes here-->
+        <script>
+            const buttons = document.querySelectorAll("button");
+            buttons.forEach(button => {
+                button.addEventListener("click",() =>{
+                    alert("You've started this project!");
+                });
+            });
+        </script>
+    </body>
+</html>
